@@ -1,0 +1,11 @@
+{
+    "name": "pucelle",
+    "version": "1.0.0",
+    "description": "Pucelle website",
+    "author": "Alkeira Kreasi Indonesia",
+    "private": true,
+    "scripts": {
+      "postinstall": "npm install express",
+      "deploy": "git subtree push — prefix dist heroku master"
+    }
+  }

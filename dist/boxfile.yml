@@ -1,0 +1,6 @@
+run.config:
+  engine: php
+web.pucelle_desktop:
+  writable_dirs:
+    - app/pucelle-desktop/dist
+  start: php-server
